@@ -10,6 +10,7 @@ public class    MyController implements Controller {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("hello","hellomvc");
         modelAndView.setViewName("index");
+
         return modelAndView;
     }
 }
